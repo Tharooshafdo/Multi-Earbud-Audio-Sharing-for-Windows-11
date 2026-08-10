@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MultiAudioShare.Core\MultiAudioShare.Core.csproj" />
+    <ProjectReference Include="..\..\src\MultiAudioShare.Audio\MultiAudioShare.Audio.csproj" />
+    <ProjectReference Include="..\..\src\MultiAudioShare.Devices\MultiAudioShare.Devices.csproj" />
+    <ProjectReference Include="..\..\src\MultiAudioShare.Infrastructure\MultiAudioShare.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
